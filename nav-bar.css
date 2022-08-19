@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+nav,
+ul,
+li {
+  display: inline-block;
+}
+
+header {
+  background-color: peru;
+}
+
+ul {
+  background-color: yellowgreen;
+  /* width: 70%; */
+  /* margin-left: auto; */
+  margin-right: 0;
+}
+
+p {
+  background-color: crimson;
+  width: calc(100% - 300px);
+}
